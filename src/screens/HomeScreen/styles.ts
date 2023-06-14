@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flex: 1,
+    backgroundColor: theme.background.primary,
   },
 });
 export default styles;

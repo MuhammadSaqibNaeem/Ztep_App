@@ -2,10 +2,11 @@
 
 import React, { FC, useEffect, useState } from "react";
 import { View, Text, Image } from "react-native";
-import { HomeStack } from "@navigations";
+import { HomeStack, AuthStack } from "@navigations";
 import { NavigationContainer } from "@react-navigation/native";
 import { loadFonts } from "./assets/fonts/index";
 
+import "react-native-gesture-handler";
 const App: FC = () => {
   const [fontLoaded, setFontLoaded] = useState(false);
 
@@ -31,7 +32,7 @@ const App: FC = () => {
 
   return (
     <NavigationContainer>
-      <HomeStack />
+      <AuthStack />
     </NavigationContainer>
   );
 };
