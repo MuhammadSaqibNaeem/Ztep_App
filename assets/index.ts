@@ -1,6 +1,6 @@
 /** @format */
 
-/////////////////////////////////////// BackGround svg'S/////////////////////////////
+///////////////////////////////////////Svg'S/////////////////////////////////////////
 
 export { default as Apple } from "./svg/apple.svg";
 export { default as BackIcon } from "./svg/BackIcon.svg";
@@ -24,4 +24,48 @@ export { default as UserIcon } from "./svg/userIcon.svg";
 export { default as CloseEye } from "./svg/eyeClose.svg";
 export { default as Splash } from "./svg/splashScreen.svg";
 export { default as DownIcon } from "./svg/downIcon.svg";
-/////////////////////////// Fonts //////////////////////////////////////////
+export { default as AddIcon } from "./svg/add.svg";
+export { default as Avatar } from "./svg/avatar.svg";
+export { default as Profile } from "./svg/profile.svg";
+export { default as SearchIcon } from "./svg/searchIcon.svg";
+export { default as NameLogo } from "./svg/nameLogo.svg";
+export { default as BackArrow } from "./svg/backArrow.svg";
+export { default as Mike } from "./svg/Mike.svg";
+export { default as Gallery } from "./svg/Gallery.svg";
+export { default as Emoji } from "./svg/Emoji.svg";
+export { default as ChatIcon } from "./svg/chatIcon.svg";
+export { default as SendMessage } from "./svg/send.svg";
+export { default as Search } from "./svg/search.svg";
+export { default as Post } from "./svg/Post.svg";
+export { default as Products } from "./svg/product.svg";
+export { default as Editoral } from "./svg/editoral.svg";
+export { default as SearchCom } from "./svg/searchCom.svg";
+export { default as Filter } from "./svg/filter.svg";
+export { default as Right } from "./svg/Right.svg";
+export { default as Airplane } from "./svg/airplane.svg";
+export { default as SSetting } from "./svg/SSetting.svg";
+export { default as SBell } from "./svg/SBell.svg";
+export { default as SAccount } from "./svg/SAccount.svg";
+export { default as ForwardArrow } from "./svg/ForwardArrow.svg";
+export { default as UpArrow } from "./svg/UpArrow.svg";
+export { default as BelowArrow } from "./svg/BelowArrow.svg";
+export { default as FProducts } from "./svg/FProducts.svg";
+export { default as Color } from "./svg/Color.svg";
+export { default as Size } from "./svg/Size.svg";
+export { default as Dots } from "./svg/dots.svg";
+export { default as Phone } from "./svg/phone.svg";
+export { default as Address } from "./svg/address.svg";
+export { default as BHome } from "./svg/BHome.svg";
+export { default as BSearch } from "./svg/BSearch.svg";
+export { default as BAddPost } from "./svg/BAddPost.svg";
+export { default as BBag } from "./svg/BBag.svg";
+export { default as BProfile } from "./svg/BProfile.svg";
+export { default as HMessage } from "./svg/hMessage.svg";
+export { default as Undo } from "./svg/undo.svg";
+export { default as Heart } from "./svg/heart.svg";
+export { default as SolidHeart } from "./svg/solidHeart.svg";
+export { default as Like } from "./svg/like.svg";
+export { default as Share } from "./svg/share.svg";
+export { default as CommentIcon } from "./svg/Coment.svg";
+export { default as ThumbLike } from "./svg/thumbs..svg";
+export { default as Delete } from "./svg/delete.svg";

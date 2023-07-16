@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   subContainer: {
     width: getWidth(92),
     height: getHeight(80),
-    marginTop: getHeight(10),
+    marginTop: getHeight(5),
   },
   textInputView: {
     alignSelf: "center",

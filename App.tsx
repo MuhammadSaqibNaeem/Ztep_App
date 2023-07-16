@@ -1,8 +1,8 @@
 /** @format */
 
 import React, { FC, useEffect, useState } from "react";
-import { View, Text, Image } from "react-native";
-import { HomeStack, AuthStack } from "@navigations";
+import { View, Text, Image, StatusBar } from "react-native";
+import { MainStack } from "@mainStack";
 import { NavigationContainer } from "@react-navigation/native";
 import { loadFonts } from "./assets/fonts/index";
 
@@ -31,9 +31,17 @@ const App: FC = () => {
   }
 
   return (
-    <NavigationContainer>
-      <AuthStack />
-    </NavigationContainer>
+    <>
+      <NavigationContainer>
+        <StatusBar
+          animated={true}
+          backgroundColor="#FFD712"
+          barStyle={"default"}
+        />
+
+        <MainStack />
+      </NavigationContainer>
+    </>
   );
 };
 

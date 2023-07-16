@@ -60,7 +60,10 @@ const LoginScreen: FC = ({ navigation }) => {
         </View>
 
         <View style={styles.buttonView}>
-          <PrimaryButton title={"Sign in"} />
+          <PrimaryButton
+            title={"Sign in"}
+            onPress={() => navigation.navigate("BottomTab")}
+          />
         </View>
         <View style={styles.ContinueWithView}>
           <Text style={styles.ContinueWithText}>━ Or Continue with ━</Text>

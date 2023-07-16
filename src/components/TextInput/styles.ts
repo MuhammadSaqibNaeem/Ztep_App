@@ -7,7 +7,6 @@ import { StyleSheet, Dimensions } from "react-native";
 const theme = AppliedTheme();
 const styles = StyleSheet.create({
   textField: {
-    width: getWidth(90),
     height: getHeight(8),
     flexDirection: "row",
     alignItems: "center",
